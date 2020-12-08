@@ -51,7 +51,7 @@ $(function() {
                     return layer.msg(res.message);
                 }
                 layer.msg(res.message);
-                // console.log(res.token);
+                console.log(res.token);
                 //将登陆成功得到的token字符串，到存到localStorage中
                 localStorage.setItem('token', res.token);
                 //跳转到后台主页
